@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="23d82a6e-0118-485e-9e1b-91d85a2ef75c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/controller/CategoriaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/controller/ProveedorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/dto/ProductoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/entity/TipoMovimiento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/repository/AlertaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/repository/CategoriaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/repository/MovimientoStockRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/repository/ProveedorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/service/ProductoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/service/impl/ProductoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/.gitinore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/controller/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/ProductoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/ProductoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/Alerta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/entity/Alerta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/entity/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/MovimientoStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/entity/MovimientoStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/entity/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/Proveedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/entity/Proveedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/entity/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/AlertaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/CategoriaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/MovimientoStockRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/ProductoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/repository/ProductoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/ProveedorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/UsuarioRepository.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="inventario-api " type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="inventario-api " type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="inventario-api " type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="34zv2AsVz5RsDuqirxnqGZgfdNt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.api-gestion-inventarios [:com.ApiGestionInventariosApplication.main()].executor": "Run",
+    "Gradle.api-gestion-inventarios [:com.universidad.ApiGestionInventariosApplication.main()].executor": "Run",
+    "Gradle.api-gestion-inventarios [:com.universidad.entity.ApiGestionInventariosApplication.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jacqu/ProyectosJava/api-gestion-inventarios",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jacqu\ProyectosJava\api-gestion-inventarios\src\main\java\com\universidad\entity" />
+      <recent name="C:\Users\jacqu\ProyectosJava\api-gestion-inventarios\src\main\java\com\universidad" />
+      <recent name="C:\Users\jacqu\ProyectosJava\api-gestion-inventarios\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.ApiGestionInventariosApplication">
+    <configuration name="ApiGestionInventariosApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.universidad.ApiGestionInventariosApplication" />
+      <module name="inventario-api_.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.universidad.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ApiGestionInventariosApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ApiGestionInventariosApplication" />
+      <module name="inventario-api_.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.universidad.entity.ApiGestionInventariosApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.universidad.entity.ApiGestionInventariosApplication" />
+      <module name="inventario-api_.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.universidad.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="api-gestion-inventarios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="api-gestion-inventarios" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.ApiGestionInventariosApplication" />
+        <item itemvalue="Application.com.universidad.entity.ApiGestionInventariosApplication" />
+        <item itemvalue="Application.ApiGestionInventariosApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23d82a6e-0118-485e-9e1b-91d85a2ef75c" name="Changes" comment="" />
+      <created>1762229007654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762229007654</updated>
+    </task>
+    <servers />
+  </component>
+</project>
