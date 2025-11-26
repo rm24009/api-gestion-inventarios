@@ -40,18 +40,3 @@ API RESTful desarrollada con Spring Boot para la gestión de inventarios univers
 * MySQL (Base de datos)
 * Lombok
 * JUnit 5 & Mockito
-
-## 🚀 Instrucciones de Ejecución
-
-### Prerrequisitos
-1.  Tener Java JDK instalado.
-2.  Tener MySQL ejecutándose.
-3.  Configurar la base de datos en `src/main/resources/application.properties` (usuario/password).
-
-### Compilar y Ejecutar
-```bash
-# Compilar el proyecto sin ejecutar tests (para rapidez)
-./gradlew clean build -x test
-
-# Ejecutar la aplicación
-./gradlew bootRun
