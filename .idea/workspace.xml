@@ -5,33 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23d82a6e-0118-485e-9e1b-91d85a2ef75c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/controller/CategoriaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/controller/ProveedorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/dto/ProductoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/entity/TipoMovimiento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/repository/AlertaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/repository/CategoriaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/repository/MovimientoStockRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/repository/ProveedorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/service/ProductoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/service/impl/ProductoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/.gitinore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/controller/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/ProductoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/ProductoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/Alerta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/entity/Alerta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/entity/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/MovimientoStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/entity/MovimientoStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/entity/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/Proveedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/entity/Proveedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/entity/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/AlertaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/CategoriaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/MovimientoStockRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/ProductoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/repository/ProductoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/ProveedorRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/UsuarioRepository.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/controller/AlertaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/controller/MovimientoStockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/controller/UsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/dto/MovimientoStockDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/service/MovimientoStockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/universidad/service/impl/MovimientoStockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/universidad/MovimientoStockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Alerta.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/AlertaRepository.class.uniqueId7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Categoria.class.uniqueId13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/CategoriaRepository.class.uniqueId11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MovimientoStockRepository.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Producto.class.uniqueId9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ProductoController.class.uniqueId10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ProductoDto.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ProductoRepository.class.uniqueId8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ProductoService.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ProductoServiceImpl.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Proveedor.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ProveedorRepository.class.uniqueId12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/universidad/entity/MovimientoStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universidad/entity/MovimientoStock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +98,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Oscar-Peraza-PV21001"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rm24009/api-gestion-inventarios.git",
+    "accountId": "a0286bd1-71f6-438d-82ee-ae2f2e7ca92f"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -102,13 +128,14 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jacqu/ProyectosJava/api-gestion-inventarios",
+    "last_opened_file_path": "C:/Users/Oscar Peraza/Documents/Proyectos_GITHUB/api-gestion-inventarios",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">

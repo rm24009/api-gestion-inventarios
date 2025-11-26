@@ -1,26 +1,27 @@
 package com.universidad.entity;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.Data; // Importante
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "movimientos")
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-//@Builder
+@Data // <--- Asegúrate de tener esto
+@Table(name = "movimientos_stock")
 public class MovimientoStock {
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private LocalDateTime fecha;
-    @Enumerated(EnumType.STRING)
-    private TipoMovimiento tipo; // ENTRADA, SALIDA
-    private Integer cantidad;
 
     @ManyToOne
     @JoinColumn(name = "producto_id")
-    private Producto producto;
+    private Producto producto; // Esto permite movimiento.setProducto()
+
+    @Enumerated(EnumType.STRING)
+    private TipoMovimiento tipoMovimiento; // Esto permite movimiento.setTipoMovimiento()
+
+    private Integer cantidad; // Esto permite movimiento.setCantidad()
+
+    private LocalDateTime fechaMovimiento;
 
     @ManyToOne
     @JoinColumn(name = "usuario_id")
