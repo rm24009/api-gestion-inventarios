@@ -40,3 +40,40 @@ API RESTful desarrollada con Spring Boot para la gestión de inventarios univers
 * MySQL (Base de datos)
 * Lombok
 * JUnit 5 & Mockito
+
+## ⚙️ Configuración y Base de Datos
+
+El proyecto está configurado para funcionar "out-of-the-box" sin necesidad de instalar servidores de base de datos externos (como MySQL o Postgres).
+
+**Base de Datos H2 (Modo Archivo):**
+La base de datos se creará automáticamente en la carpeta del proyecto:
+`./data/inventario_db`
+
+Esto asegura que los datos persistan incluso si se detiene la aplicación, cumpliendo con los requisitos de portabilidad y persistencia.
+
+---
+
+## 🚀 Instrucciones de Ejecución
+
+### Prerrequisitos
+* Tener instalado **JDK 21**.
+* Tener configurada la variable de entorno `JAVA_HOME`.
+
+### Ejecución desde IntelliJ IDEA Community Edition
+
+1.  **Importar el Proyecto:**
+    * Abre IntelliJ IDEA.
+    * Selecciona `Open` o `Open Project`.
+    * Navega hasta la carpeta `api-gestion-inventarios` y selecciona el archivo `build.gradle`.
+    * Haz clic en `Open` (o "Open as Project").
+
+2.  **Configuración Inicial:**
+    * Espera a que IntelliJ termine de indexar y descargar las dependencias de Gradle (barra de progreso inferior).
+    * Si aparece una alerta, selecciona **"Load Gradle Project"** o **"Trust Project"**.
+    * Asegúrate de que el SDK del proyecto esté configurado en Java 21 (File -> Project Structure -> Project -> SDK).
+
+3.  **Ejecutar la Aplicación:**
+    * Navega en el árbol del proyecto a:
+      `src/main/java/com/ApiGestionInventariosApplication.java`
+    * Haz clic derecho sobre el archivo y selecciona **"Run 'ApiGestionInventarios...'"** (o usa el icono de "Play" verde al lado de la línea `public class`).
+    * La consola mostrará los logs de Spring Boot y confirmará que inició en el puerto 8080.
